@@ -1,5 +1,19 @@
 {
-  "name": "01-intro",
-  "version": "1.0.0",
-  "author": "John Doe"
+    "name": "fcc-learn-npm-package-json",
+    "author":"John Doe",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "8.11.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
 }
+
